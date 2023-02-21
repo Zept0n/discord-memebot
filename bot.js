@@ -2,7 +2,7 @@ const { Client, GatewayIntentBits } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 const keepAlive = require("./server")
 const meme = require('./meme');
-const token = process.env['token']
+const token = process.env['token'];
 
 
 client.on('ready', () => {
