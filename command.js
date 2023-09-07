@@ -14,6 +14,14 @@ const commands = [
   {
     name: 'meme',
     description: 'Random meme from reddit!',
+    options: [
+      {
+        name: 'subreddit',
+        description: 'Subreddit to pull from',
+        type: 3,
+        required: false,
+      }
+      ]
   },
 ];
 
