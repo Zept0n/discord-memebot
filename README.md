@@ -8,6 +8,6 @@ It was hosted straight on replit.com using a simple express server that was bein
 commands:
 - `/meme`: Receive a random meme from the default subreddit.
 - `/meme subreddit` command includes an optional parameter called 'subreddit.' This parameter allows users to specify a subreddit from which they want to fetch a random meme.
-- 
+
 ## Installation 
 - deprecated
